@@ -3,7 +3,7 @@ import time
 
 count = int(input('Введите число карточек: '))
 task = open("generated.txt", 'w')
-for k in range(1, 10):
+for k in range(1, 10): #hhlj;lk;l
     for i in range(1, 10):
         task.write(str(k))
         task.write(" X ")
